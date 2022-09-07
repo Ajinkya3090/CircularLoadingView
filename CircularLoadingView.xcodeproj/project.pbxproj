@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845D278F28C22461005AEC26 /* SpinningCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D57BF4287D501E00A89BF7 /* SpinningCircleView.swift */; };
 		84D57BE1287D4B3F00A89BF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D57BE0287D4B3F00A89BF7 /* AppDelegate.swift */; };
 		84D57BE3287D4B3F00A89BF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D57BE2287D4B3F00A89BF7 /* SceneDelegate.swift */; };
 		84D57BE5287D4B3F00A89BF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D57BE4287D4B3F00A89BF7 /* ViewController.swift */; };
 		84D57BE8287D4B3F00A89BF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D57BE6287D4B3F00A89BF7 /* Main.storyboard */; };
 		84D57BEA287D4B4100A89BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D57BE9287D4B4100A89BF7 /* Assets.xcassets */; };
 		84D57BED287D4B4100A89BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D57BEB287D4B4100A89BF7 /* LaunchScreen.storyboard */; };
+		84D57BF7287D564800A89BF7 /* RotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D57BF6287D564800A89BF7 /* RotationAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		84D57BE9287D4B4100A89BF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D57BEC287D4B4100A89BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D57BEE287D4B4100A89BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D57BF4287D501E00A89BF7 /* SpinningCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinningCircleView.swift; sourceTree = "<group>"; };
+		84D57BF6287D564800A89BF7 /* RotationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				84D57BE0287D4B3F00A89BF7 /* AppDelegate.swift */,
 				84D57BE2287D4B3F00A89BF7 /* SceneDelegate.swift */,
+				84D57BF4287D501E00A89BF7 /* SpinningCircleView.swift */,
+				84D57BF6287D564800A89BF7 /* RotationAnimation.swift */,
 				84D57BE4287D4B3F00A89BF7 /* ViewController.swift */,
 				84D57BE6287D4B3F00A89BF7 /* Main.storyboard */,
 				84D57BE9287D4B4100A89BF7 /* Assets.xcassets */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845D278F28C22461005AEC26 /* SpinningCircleView.swift in Sources */,
 				84D57BE5287D4B3F00A89BF7 /* ViewController.swift in Sources */,
 				84D57BE1287D4B3F00A89BF7 /* AppDelegate.swift in Sources */,
+				84D57BF7287D564800A89BF7 /* RotationAnimation.swift in Sources */,
 				84D57BE3287D4B3F00A89BF7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
